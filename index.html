@@ -20,11 +20,11 @@
   <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="keywords" content="malaria, llin, bed nets, deep learning, automation, monitoring">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>Image-based prediction of mosquito bed net conditions</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,21 +52,21 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Image-based prediction of mosquito bed net conditions</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://dbe.unibas.ch/en/persons/natalia-manas-chavernas/" target="_blank">Natalia Mañas Chavernas</a><sup></sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://dbe.unibas.ch/en/persons/julia-wolleb/" target="_blank">Julia Wolleb</a></span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://dbe.unibas.ch/en/persons/philippe-claude-cattin/" target="_blank">Philippe Cattin</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Center for Medical Image Analysis & Navigation<br>Department of Biomedical Engineering<br>University of Basel</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>This project is part of the BRCCH-funded <a href="https://brc.ch/research/viallin/">ViALLIN project</a> and is run in collaboration with the <a href="https://www.swisstph.ch/en/">Swiss Tropical Institute</a> (Switzerland) and the <a href="https://www.ihi.or.tz/">Ifakara Health Insitute</a> (Tanzania).</small></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -83,7 +83,7 @@
                     </span>
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!--<span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -91,10 +91,10 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span>-->
 
                   <!-- Github link -->
-                  <span class="link-block">
+                  <!--<span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -102,10 +102,10 @@
                     </span>
                     <span>Code</span>
                   </a>
-                </span>
+                </span>-->
 
                 <!-- ArXiv abstract Link -->
-                <span class="link-block">
+                <!--<span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -113,7 +113,7 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span>-->
             </div>
           </div>
         </div>
@@ -124,12 +124,12 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<!--<section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">-->
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <!--<source src="static/videos/banner_video.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
@@ -137,7 +137,7 @@
       </h2>
     </div>
   </div>
-</section>
+</section>-->
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -147,8 +147,18 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
+          <h3>Introduction and background</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Malaria is a life-threatening disease that is transmitted by Anopheles mosquitoes. It is among the top 10 causes of death in low-income countries, with hundreds of thousands of deaths occurring every year. Out of the current approaches to prevent malaria, the use of long-lasting insecticidal nets (LLINs) has proven to be an effective, low-cost method to prevent parasite transmission, reducing mortality caused by this disease. However, the protective action of LLINs strongly relies on their physical integrity, making monitoring their condition and fast replacement essential.
+            
+            Currently, the bed net condition is surveilled employing the WHO standard, which assesses fabric integrity by counting the number of holes and tears in a net, classifying them according to their diameter’s size. However, this technique is time-consuming and does not accurately reflect the total hole area. Thus, a fast, reliable method is needed to calculate this parameter to adequately plan bed net distribution campaigns in malaria-endemic countries.
+          </p>
+          <h3>Objectives</h3>
+          <p>
+            The aim of this project is to develop a fast, simple and reliable alternative to estimate current and future bed net conditions from images using Deep Learning-based methods.
+          <h3>Relevance</h3>
+          <p>
+            The resulting models will provide a faster and more reliable approach to assess LLIN condition, thus enabling national programs to effectively plan the mass-distribution of these nets to populations at risk, contributing to the protection of millions of people.
           </p>
         </div>
       </div>
