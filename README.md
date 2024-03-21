@@ -1,7 +1,7 @@
 # Image-based prediction of mosquito bed net conditions
 This is an academic paper project page template.
 
-**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own.
+[View project page](https://n-manas.github.io/Image-based-prediction-of-mosquito-bed-net-conditions/)
 
 ## Tips:
 - The `index.html` file contains comments instructing you what to replace, you should follow these comments.
